@@ -1,0 +1,30 @@
+{
+  "name": "platzom",
+  "version": "0.1.0",
+  "description": "Nuevo idioma platzom",
+  "main": "dist/src/platzom.js",
+  "scripts": {
+    "build":"babel src/platzom.js -d dist",
+    "test":"mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mundotodobytes/platzom"
+  },
+  "keywords": [
+    "platzom",
+    "mundotodobytes"
+  ],
+  "author": "mundotodobytes <mundotodobytes@gmail.com> (http://www.mundotodobytes.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mundotodobytes/platzom/issues"
+  },
+  "homepage": "https://github.com/mundotodobytes/platzom",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.4.0",
+    "chai":"^3.5.0",
+    "mocha":"^3.2.0"
+  }
+}
